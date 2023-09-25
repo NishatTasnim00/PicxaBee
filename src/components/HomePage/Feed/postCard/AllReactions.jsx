@@ -59,9 +59,7 @@ export default function AllReactions({
 															</Link>
 														</span>
 
-														{/* <span className="text-sm  text-black-bg-secondary dark:text-white">
-															{comment?.comment}
-														</span> */}
+													
 													</p>
 												</div>
 											))}
