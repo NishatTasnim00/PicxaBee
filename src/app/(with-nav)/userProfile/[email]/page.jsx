@@ -99,8 +99,7 @@ const UserProfile = ({ params }) => {
 		const file = e.target.files[0];
 		const formData = new FormData();
 		formData.append('image', file);
-		const url =
-			'https://api.imgbb.com/1/upload?expiration=600&key=f3218173624c8aebe56d3c415677e482';
+		const url = `https://api.imgbb.com/1/upload?key=${process.env.NEXT_PUBLIC_IMGBB_STOREIMG}`;
 
 		try {
 			const res = await fetch(url, {
@@ -147,8 +146,7 @@ const UserProfile = ({ params }) => {
 		const file = e.target.files[0];
 		const formData = new FormData();
 		formData.append('image', file);
-		const url =
-			'https://api.imgbb.com/1/upload?expiration=600&key=f3218173624c8aebe56d3c415677e482';
+		const url = `https://api.imgbb.com/1/upload?key=${process.env.NEXT_PUBLIC_IMGBB_STOREIMG}`;
 
 		try {
 			const res = await fetch(url, {
