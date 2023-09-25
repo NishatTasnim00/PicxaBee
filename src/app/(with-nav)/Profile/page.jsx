@@ -1,5 +1,5 @@
 "use client"
-import cover from "/public/catCover.PNG";
+// import cover from "/public/catCover.PNG";
 import useSWR from 'swr';
 // import { AiFillLinkedin } from 'react-icons/ai';
 import { FaGraduationCap, FaSchool, FaReact, FaFacebookSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
