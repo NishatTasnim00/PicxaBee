@@ -150,7 +150,8 @@ const Navbar = () => {
         </div>
 
       {
-        user && <>
+        // user && 
+        <>
           <div
           data-aos="fade-left"
           className="indicator relative flex gap-6 lg:gap-8"
