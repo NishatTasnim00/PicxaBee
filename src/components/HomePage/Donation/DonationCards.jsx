@@ -22,8 +22,11 @@ const DonationCards = () => {
 	// Filter the donation posts based on criteria
 
 	const approvedDonations =
-		donationPosts &&
-		donationPosts?.filter((donationPost) => donationPost.status === 'approved');
+  donationPosts &&
+  Array.isArray(donationPosts)
+    ? donationPosts.filter((donationPost) => donationPost.status === 'approved')
+    : [];
+
 	const displayDonation = approvedDonations.slice(0, 2);
 
 	// console.log(displayDonation)

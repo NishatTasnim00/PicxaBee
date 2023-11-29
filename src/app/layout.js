@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
             <ChatContext2>
               <ThemeProviders>
                 <div className="">
-                  {/* <Navbar /> */}
+                  
                   <Toaster />
                   <div className="dark:text-white dark:bg-zinc-800">
                     {children}

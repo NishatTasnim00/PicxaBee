@@ -30,7 +30,7 @@ const Ad = () => {
 	}, [adPosts]);
 
 	return (
-		<div className="max-w-[300px] h-52">
+		<div className="max-w-[400px] h-52">
 			{adPosts && adPosts.length > 0 ? (
 				<Image
 					src={adPosts[randomAdIndex]?.image}
