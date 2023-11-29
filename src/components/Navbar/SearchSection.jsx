@@ -49,8 +49,7 @@ const SearchSection = () => {
     }
   };
   return (
-    <>
-      {user ? (
+    
         <>
           <div className="group relative flex items-center">
             <div className="flex">
@@ -83,10 +82,7 @@ const SearchSection = () => {
             </div>
           </div>
         </>
-      ) : (
-        <></>
-      )}
-    </>
+     
   );
 };
 
